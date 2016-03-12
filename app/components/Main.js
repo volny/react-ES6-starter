@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Main (props) {
+const Main = (props) => {
   return (
     <div>
       {props.message}
@@ -8,3 +8,4 @@ export default function Main (props) {
   )
 }
 
+module.exports = Main;
